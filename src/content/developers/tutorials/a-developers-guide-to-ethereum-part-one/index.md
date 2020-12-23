@@ -48,7 +48,7 @@ Each [block](/developers/docs/blocks/) has a reference to the block that came be
 
 _A blockchain is essentially a linked list; each block has a reference to the previous block._
 
-This data structure is nothing novel, but the rules (i.e., peer-to-peer protocols) that govern the network are. There’s no central authority; the network of peers must collaborate to sustain the network, and compete to decide which transactions to include in the next block. So, when you want to send some money to a friend, you’ll need to broadcast that transaction to the network, then wait for it to be included in an upcoming block.
+This data structure is nothing novel, but the rules (i.e., peer-to-peer protocols) that govern the network. There’s no central authority; the network of peers must collaborate to sustain the network, and compete to decide which transactions to include in the next block. So, when you want to send some money to a friend, you’ll need to broadcast that transaction to the network, then wait for it to be included in an upcoming block.
 
 The only way for the blockchain to verify that money was truly sent from one user to another is to use a currency native to (i.e., created and governed by) that blockchain. In Ethereum, this currency is called ether, and the Ethereum blockchain contains the only official record of account balances.
 
